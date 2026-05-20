@@ -1,0 +1,38 @@
+﻿# OpenClaw workspace
+node_modules/
+*.log
+*.lock
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# Session data (too large for git)
+sessions/
+*.jsonl
+*.trajectory
+*.trajectory.*
+*.checkpoint
+
+# Media files
+media/*.mp3
+media/*.mp4
+media/*.wav
+media/*.png
+media/*.jpg
+media/*.jpeg
+media/*.gif
+media/*.webp
+
+# Temp & OS
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc
+
+# Large skill deps
+**/node_modules/
