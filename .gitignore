@@ -36,3 +36,6 @@ __pycache__/
 
 # Large skill deps
 **/node_modules/
+
+# Test files with potential secrets
+tools/_test_*
